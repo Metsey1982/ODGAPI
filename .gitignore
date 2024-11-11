@@ -1,5 +1,4 @@
 # Ignore appsettings.json
-appsettings.json
 appsettings.Development.json
 
 # Ignore other files and directories
