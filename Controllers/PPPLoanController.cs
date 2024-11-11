@@ -44,7 +44,7 @@ namespace ODGAPI.Controllers
            catch(Exception ex)
            {
                 _logger.LogError(ex,"An error occurred while getting data");
-                return StatusCode(500,"An internal server error occurred");
+                return StatusCode(500,"An internal server error occurred" + ex.Message.ToString());
            }   
  
 		}
